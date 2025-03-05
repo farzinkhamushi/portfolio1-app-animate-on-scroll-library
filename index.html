@@ -202,7 +202,7 @@
               </div>
               <div class="info">
                 <h3>Address</h3>
-                <span>Bercelona, Spain</span>
+                <span>Tehran, Iran</span>
               </div>
             </div>
             <div class="card reveal">
@@ -211,7 +211,7 @@
               </div>
               <div class="info">
                 <h3>Phone</h3>
-                <span>+34566-839754</span>
+                <span>+9809338059694</span>
               </div>
             </div>
             <div class="card reveal">
@@ -220,7 +220,7 @@
               </div>
               <div class="info">
                 <h3>Email Address</h3>
-                <span>contact@email.com</span>
+                <span>kuroshkhamushi@gmail.com</span>
               </div>
             </div>
             <div class="card reveal">
@@ -256,53 +256,14 @@
     <div class="scrollToTop-btn">↑</div>
   
     <footer class="footer">
-    <span class="footer-title">Jacob Stevens</span>
-    <p>Copyright @2021 <a href="#">Coding Zakir</a>. All Rights Reserved.</p>
+    <span class="footer-title">Programming Party</span>
+    <p>Copyright @2025 <a href="#">Programming Party</a>. All Rights Reserved.</p>
     </footer>
 
       
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    
     <script> AOS.init({offset:0}); </script>
+    <script src="script.js"></script>
 
-    <script>
-//javascript for scroll back to top on click scroll-to-top button
-
-        const scrolltotop_btn = document.querySelector(".scrollToTop-btn")
-        scrolltotop_btn.addEventListener("click", () => {
-            //document.documentElement.scrollTop = 0;
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        });
-
-
-
-        const menuBtn = document.querySelector(".menu-indicator");
-        nav = document.querySelector(".nav");
-        const navItems = document.querySelector(".nav a");
-        menuBtn.addEventListener("click", () => {
-            menuBtn.classList.toggle("active");
-            nav.classList.toggle("active");
-        });
-        // Nav Effects
-        window.addEventListener("scroll", function(){
-            const header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-            if (window.scrollY > 300 || document.documentElement.scrollTop > 300) {
-                scrolltotop_btn.style.display = "block";
-            }
-            if (window.scrollY <= 0 || document.documentElement.scrollTop <= 300) {
-                scrolltotop_btn.style.display = "none";
-            }
-        });
-        navItems.forEach((navItem) => {
-            navItem.addEventListener("click", () => {
-                menuBtn.classList.remove("active");
-                nav.classList.remove("active")
-            })
-        })
-    </script>
 </body>
 </html>
