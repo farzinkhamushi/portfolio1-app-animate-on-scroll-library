@@ -748,6 +748,6 @@ section{
     transition: all 0.3s ease;
   }
 
-  scrollToTop-btn:hover{
+  .scrollToTop-btn:hover{
     cursor: pointer;
   }
