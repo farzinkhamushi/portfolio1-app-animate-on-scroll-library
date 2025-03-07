@@ -19,7 +19,10 @@ window.addEventListener("scroll", function(){
     const header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
     if (window.scrollY > 300 || document.documentElement.scrollTop > 300) {
-        scrolltotop_btn.style.display = "block";
+        scrolltotop_btn.style.display = "flex";
+        scrolltotop_btn.style.justifyContent = "center";
+        scrolltotop_btn.style.alignItems = "center";
+        scrolltotop_btn.style.alignContents = "baseline";
     }
     if (window.scrollY <= 0 || document.documentElement.scrollTop <= 300) {
         scrolltotop_btn.style.display = "none";
